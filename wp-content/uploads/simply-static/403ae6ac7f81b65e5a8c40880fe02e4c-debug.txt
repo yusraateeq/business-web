@@ -1,0 +1,344 @@
+[2024-10-10 18:10:12] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-10 18:10:12] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-10 18:10:12] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-10 18:10:13] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-10 18:10:13] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-10 18:10:13] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-10 18:10:13] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812\
+[2024-10-10 18:10:13] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/business-web/business-web/
+[2024-10-10 18:10:13] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-10 18:10:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-10 18:10:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-10 18:10:13] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-10 18:10:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/
+[2024-10-10 18:10:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-10 18:10:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67081885c0425-O1c1AK.tmp
+[2024-10-10 18:10:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/?simply_static_page=1
+[2024-10-10 18:10:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/?simply_static_page=1
+[2024-10-10 18:10:14] [class-ss-url-fetcher.php:103] Filesize: 103052 bytes
+[2024-10-10 18:10:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-10 18:10:14] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-10 18:10:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67081885c0425-O1c1AK.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/index.html
+[2024-10-10 18:10:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:15] [class-ss-fetch-urls-task.php:159] Adding 11 URLs to the queue
+[2024-10-10 18:10:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:16] [class-ss-page.php:119] Checking Content Identical:fdc2f4083fc45cd5db746604c632d22f2dc13649===. Value: FALSE
+[2024-10-10 18:10:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-10 18:10:16] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-10 18:10:16] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-10 18:10:16] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-10 18:10:16] [class-ss-fetch-urls-task.php:69] Total pages: 11; Pages remaining: 10
+[2024-10-10 18:10:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/category/uncategorized/
+[2024-10-10 18:10:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 11
+[2024-10-10 18:10:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67081888414cc-VBugnS.tmp
+[2024-10-10 18:10:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/category/uncategorized/?simply_static_page=2
+[2024-10-10 18:10:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/category/uncategorized/?simply_static_page=2
+[2024-10-10 18:10:17] [class-ss-url-fetcher.php:103] Filesize: 103574 bytes
+[2024-10-10 18:10:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-10 18:10:17] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-10-10 18:10:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67081888414cc-VBugnS.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/category/uncategorized/index.html
+[2024-10-10 18:10:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:18] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-10-10 18:10:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:18] [class-ss-page.php:119] Checking Content Identical:d71d8c3244ee830d7a15ecf6cdb0ba0301b7a56f===. Value: FALSE
+[2024-10-10 18:10:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/2024/10/10/hello-world/
+[2024-10-10 18:10:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 11
+[2024-10-10 18:10:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708188aa863b-Ith7wj.tmp
+[2024-10-10 18:10:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/2024/10/10/hello-world/?simply_static_page=3
+[2024-10-10 18:10:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/2024/10/10/hello-world/?simply_static_page=3
+[2024-10-10 18:10:19] [class-ss-url-fetcher.php:103] Filesize: 110544 bytes
+[2024-10-10 18:10:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-10 18:10:19] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/10/hello-world/index.html
+[2024-10-10 18:10:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708188aa863b-Ith7wj.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/2024/10/10/hello-world/index.html
+[2024-10-10 18:10:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:20] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-10-10 18:10:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:20] [class-ss-page.php:119] Checking Content Identical:239de36b055652f5b5d7963bea9eee3af446fa23===. Value: FALSE
+[2024-10-10 18:10:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/author/admin/
+[2024-10-10 18:10:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 11
+[2024-10-10 18:10:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708188cef7cd-DXb9Gk.tmp
+[2024-10-10 18:10:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/author/admin/?simply_static_page=4
+[2024-10-10 18:10:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/author/admin/?simply_static_page=4
+[2024-10-10 18:10:21] [class-ss-url-fetcher.php:103] Filesize: 104326 bytes
+[2024-10-10 18:10:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-10 18:10:21] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
+[2024-10-10 18:10:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708188cef7cd-DXb9Gk.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/author/admin/index.html
+[2024-10-10 18:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:22] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-10-10 18:10:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:23] [class-ss-page.php:119] Checking Content Identical:51e5347b60e75cf3ef2f8c26a7a563753c62bd7c===. Value: FALSE
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-10 18:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 11
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708188f77ecf-5neRWK.tmp
+[2024-10-10 18:10:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=5
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=5
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:103] Filesize: 23659 bytes
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708188f77ecf-5neRWK.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:23] [class-ss-page.php:119] Checking Content Identical:3576353c10ec109664743f318dc8a33b49667781===. Value: FALSE
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/feed/
+[2024-10-10 18:10:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 11
+[2024-10-10 18:10:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708188f90caa-vfQ30A.tmp
+[2024-10-10 18:10:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/feed/?simply_static_page=6
+[2024-10-10 18:10:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/feed/?simply_static_page=6
+[2024-10-10 18:10:24] [class-ss-url-fetcher.php:103] Filesize: 1788 bytes
+[2024-10-10 18:10:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-10 18:10:24] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-10 18:10:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708188f90caa-vfQ30A.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/feed/index.xml
+[2024-10-10 18:10:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:24] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-10 18:10:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:24] [class-ss-page.php:119] Checking Content Identical:6d24db783666cf1bfde5496440053f608f2f261d===. Value: FALSE
+[2024-10-10 18:10:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/comments/feed/
+[2024-10-10 18:10:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 11
+[2024-10-10 18:10:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67081890e299a-SxXina.tmp
+[2024-10-10 18:10:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/comments/feed/?simply_static_page=7
+[2024-10-10 18:10:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/comments/feed/?simply_static_page=7
+[2024-10-10 18:10:25] [class-ss-url-fetcher.php:103] Filesize: 1731 bytes
+[2024-10-10 18:10:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-10 18:10:25] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-10 18:10:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67081890e299a-SxXina.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/comments/feed/index.xml
+[2024-10-10 18:10:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:25] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-10 18:10:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:25] [class-ss-page.php:119] Checking Content Identical:664d6deafe1c0c3ef5f76fc807d4d1282578f1bf===. Value: FALSE
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-10 18:10:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 11
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708189205d6c-awvM9E.tmp
+[2024-10-10 18:10:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=8
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=8
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:103] Filesize: 43154 bytes
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708189205d6c-awvM9E.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:26] [class-ss-page.php:119] Checking Content Identical:486538a3d1eba64427d3d73811a11ca2e094991e===. Value: FALSE
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-includes/css/dist/block-library/style.min.css
+[2024-10-10 18:10:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 11
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/670818921a9a0-fg4cUE.tmp
+[2024-10-10 18:10:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-includes/css/dist/block-library/style.min.css?simply_static_page=9
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-includes/css/dist/block-library/style.min.css?simply_static_page=9
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:103] Filesize: 110035 bytes
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/670818921a9a0-fg4cUE.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-includes/css/dist/block-library/style.min.css
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:26] [class-ss-page.php:119] Checking Content Identical:5595a586cbd42b31377681b9d35293278d75d336===. Value: FALSE
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-json/
+[2024-10-10 18:10:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 11
+[2024-10-10 18:10:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/670818923cb1f-9CpgJl.tmp
+[2024-10-10 18:10:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-json/?simply_static_page=10
+[2024-10-10 18:10:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-json/?simply_static_page=10
+[2024-10-10 18:10:27] [class-ss-url-fetcher.php:103] Filesize: 276617 bytes
+[2024-10-10 18:10:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-10 18:10:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-10-10 18:10:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/670818923cb1f-9CpgJl.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-json/index.html
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:27] [class-ss-page.php:119] Checking Content Identical:022af932fcea73bb52824a4c60454cfe16713996===. Value: FALSE
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/xmlrpc.php
+[2024-10-10 18:10:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 11
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/business-web/business-web/xmlrpc.php
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-10 18:10:27] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 11 pages/files
+[2024-10-10 18:10:27] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-10 18:10:27] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-10 18:10:27] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:69] Total pages: 20; Pages remaining: 9
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/category/uncategorized/feed/
+[2024-10-10 18:10:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 20
+[2024-10-10 18:10:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/670818934342d-Ly7egx.tmp
+[2024-10-10 18:10:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/category/uncategorized/feed/?simply_static_page=12
+[2024-10-10 18:10:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/category/uncategorized/feed/?simply_static_page=12
+[2024-10-10 18:10:28] [class-ss-url-fetcher.php:103] Filesize: 1834 bytes
+[2024-10-10 18:10:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-10 18:10:28] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-10-10 18:10:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/670818934342d-Ly7egx.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/category/uncategorized/feed/index.xml
+[2024-10-10 18:10:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:28] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-10 18:10:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:28] [class-ss-page.php:119] Checking Content Identical:0ea70a617ec90bab0de1085a91c0c4b609644829===. Value: FALSE
+[2024-10-10 18:10:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-json/wp/v2/categories/1
+[2024-10-10 18:10:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 20
+[2024-10-10 18:10:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/67081894324eb-CWJ5ex.tmp
+[2024-10-10 18:10:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-json/wp/v2/categories/1?simply_static_page=13
+[2024-10-10 18:10:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-json/wp/v2/categories/1?simply_static_page=13
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:103] Filesize: 716 bytes
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/67081894324eb-CWJ5ex.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-json/wp/v2/categories/1\index.html
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:29] [class-ss-page.php:119] Checking Content Identical:2016a1d87870226a7a5ea38136584ac0d2c0e71e===. Value: FALSE
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-includes/js/comment-reply.min.js
+[2024-10-10 18:10:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 20
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/670818957054b-wpwhmc.tmp
+[2024-10-10 18:10:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-includes/js/comment-reply.min.js?simply_static_page=14
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-includes/js/comment-reply.min.js?simply_static_page=14
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/670818957054b-wpwhmc.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-includes/js/comment-reply.min.js
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:29] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/2024/10/10/hello-world/feed/
+[2024-10-10 18:10:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 20
+[2024-10-10 18:10:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/670818957cd60-r791r7.tmp
+[2024-10-10 18:10:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/2024/10/10/hello-world/feed/?simply_static_page=15
+[2024-10-10 18:10:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/2024/10/10/hello-world/feed/?simply_static_page=15
+[2024-10-10 18:10:30] [class-ss-url-fetcher.php:103] Filesize: 1751 bytes
+[2024-10-10 18:10:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-10 18:10:30] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/10/hello-world/feed/index.xml
+[2024-10-10 18:10:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/670818957cd60-r791r7.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/2024/10/10/hello-world/feed/index.xml
+[2024-10-10 18:10:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:30] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-10 18:10:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:30] [class-ss-page.php:119] Checking Content Identical:4a34a663e4c0dfc047310504aaa924893831a578===. Value: FALSE
+[2024-10-10 18:10:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-json/wp/v2/posts/1
+[2024-10-10 18:10:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 20
+[2024-10-10 18:10:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708189694cd0-xIV0LU.tmp
+[2024-10-10 18:10:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-json/wp/v2/posts/1?simply_static_page=16
+[2024-10-10 18:10:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-json/wp/v2/posts/1?simply_static_page=16
+[2024-10-10 18:10:31] [class-ss-url-fetcher.php:103] Filesize: 4635 bytes
+[2024-10-10 18:10:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-10 18:10:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-10-10 18:10:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708189694cd0-xIV0LU.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-json/wp/v2/posts/1\index.html
+[2024-10-10 18:10:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:31] [class-ss-page.php:119] Checking Content Identical:cb4631bf84bacc0f16a87deb26e11f45215a49a4===. Value: FALSE
+[2024-10-10 18:10:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-json/oembed/1.0/embed
+[2024-10-10 18:10:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 20
+[2024-10-10 18:10:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708189793d98-7pqaoK.tmp
+[2024-10-10 18:10:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-json/oembed/1.0/embed?simply_static_page=17
+[2024-10-10 18:10:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-json/oembed/1.0/embed?simply_static_page=17
+[2024-10-10 18:10:32] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-10-10 18:10:32] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-10 18:10:32] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-10 18:10:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/author/admin/feed/
+[2024-10-10 18:10:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 20
+[2024-10-10 18:10:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/670818989205b-LwzyxL.tmp
+[2024-10-10 18:10:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/author/admin/feed/?simply_static_page=18
+[2024-10-10 18:10:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/author/admin/feed/?simply_static_page=18
+[2024-10-10 18:10:34] [class-ss-url-fetcher.php:103] Filesize: 1816 bytes
+[2024-10-10 18:10:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-10 18:10:34] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/feed/index.xml
+[2024-10-10 18:10:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/670818989205b-LwzyxL.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/author/admin/feed/index.xml
+[2024-10-10 18:10:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:34] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-10 18:10:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:34] [class-ss-page.php:119] Checking Content Identical:3b97655f9cd83a906a85d369b00e39b3e19ad61f===. Value: FALSE
+[2024-10-10 18:10:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web/wp-json/wp/v2/users/1
+[2024-10-10 18:10:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 20
+[2024-10-10 18:10:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708189a76007-fSCrXv.tmp
+[2024-10-10 18:10:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/wp-json/wp/v2/users/1?simply_static_page=19
+[2024-10-10 18:10:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/wp-json/wp/v2/users/1?simply_static_page=19
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:103] Filesize: 672 bytes
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708189a76007-fSCrXv.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812/wp-json/wp/v2/users/1\index.html
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-10 18:10:35] [class-ss-page.php:119] Checking Content Identical:466b3132561bea86c6f9327db29223ea02b7aea7===. Value: FALSE
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/business-web/business-web
+[2024-10-10 18:10:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 20
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708189b829bd-EyLTxo.tmp
+[2024-10-10 18:10:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web?simply_static_page=20
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web?simply_static_page=20
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:103] Filesize: 372 bytes
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-10 18:10:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/business-web/business-web/
+[2024-10-10 18:10:35] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-10 18:10:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 11 of 20 pages/files
+[2024-10-10 18:10:35] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-10 18:10:36] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-10 18:10:36] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-10 18:10:36] [class-ss-fetch-urls-task.php:69] Total pages: 20; Pages remaining: 0
+[2024-10-10 18:10:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 20 of 20 pages/files
+[2024-10-10 18:10:36] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-10 18:10:36] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-10 18:10:36] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-10 18:10:36] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-10 18:10:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ACER\AppData\Local\Temp/6708189c988eb-HjsH0A.tmp
+[2024-10-10 18:10:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/business-web/business-web/1728583837?simply_static_page=0
+[2024-10-10 18:10:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/business-web/business-web/1728583837?simply_static_page=0
+[2024-10-10 18:10:37] [class-ss-url-fetcher.php:103] Filesize: 93454 bytes
+[2024-10-10 18:10:37] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-10 18:10:37] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-10 18:10:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ACER\AppData\Local\Temp/6708189c988eb-HjsH0A.tmp to C:\xampp\htdocs\business-web\business-web/wp-content/uploads\simply-static\temp-files/simply-static-1-1728583812\404/index.html
+[2024-10-10 18:10:37] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-10 18:10:38] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-10 18:10:38] [class-ss-page.php:119] Checking Content Identical:b6fc93053e9b7a3b7c347ca7360503b01fb56e8d===. Value: FALSE
+[2024-10-10 18:10:38] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-10 18:10:38] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-10 18:10:38] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-10 18:10:38] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-10 18:10:38] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 17 of 17 files
+[2024-10-10 18:10:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/
+[2024-10-10 18:10:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/category/uncategorized
+[2024-10-10 18:10:38] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/2024/10/10/hello-world
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/author/admin
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-content/themes/astra/assets/js/minified
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/feed
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/comments/feed
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-content/themes/astra/assets/css/minified
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-includes/css/dist/block-library
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-json
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/category/uncategorized/feed
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-json/wp/v2/categories
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/business-web/business-web/wp-content/uploads/simply-static/temp-files/simply-static-1-1728583812/wp-json/wp/v2/categories/1/index.html to C:/xampp/htdocs/business-web/business-web/wp-json/wp/v2/categories/1/index.html
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-includes/js
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/2024/10/10/hello-world/feed
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-json/wp/v2/posts
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/business-web/business-web/wp-content/uploads/simply-static/temp-files/simply-static-1-1728583812/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/business-web/business-web/wp-json/wp/v2/posts/1/index.html
+[2024-10-10 18:10:39] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/author/admin/feed
+[2024-10-10 18:10:40] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/business-web/business-web/wp-json/wp/v2/users
+[2024-10-10 18:10:40] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/business-web/business-web/wp-content/uploads/simply-static/temp-files/simply-static-1-1728583812/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/business-web/business-web/wp-json/wp/v2/users/1/index.html
+[2024-10-10 18:10:40] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:17. Processed Pages: 17
+[2024-10-10 18:10:40] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 17 of 17 files
+[2024-10-10 18:10:40] [trait-can-process-pages.php:110] Total pages: 17; Pages remaining: 0
+[2024-10-10 18:10:40] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-10 18:10:40] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/business-web/business-web\404\index.html
+[2024-10-10 18:10:40] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-10 18:10:40] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://yusraateeq.github.io/business-web/" target="_blank">https://yusraateeq.github.io/business-web/</a>
+[2024-10-10 18:10:40] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-10 18:10:40] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-10 18:10:40] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-10 18:10:40] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-10 18:10:40] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-10 18:10:40] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-10 18:10:40] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-10 18:10:40] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:28
